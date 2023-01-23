@@ -1,0 +1,38 @@
+html{
+    background: url('https://storage-wavetoys.b-cdn.net/drums-background-music.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+.keys{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+.key kbd{
+    font-size: 30px;
+    color: white;
+}
+.key{
+    border: 5px solid black;
+    transition: all 0.07s;
+    border-radius: 10px;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    width: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.playing{
+    transform: scale(1.1);
+    border-color: yellowgreen;
+    box-shadow: yellowgreen;
+}
+.sound{
+    display: block;
+    font-size: 18px;
+    color: yellowgreen;
+}
